@@ -5,21 +5,21 @@ import Search from "./Search";
 const Header = () => {
   return (
     <>
-      <div className="header bg-sky-200 w-full shadow-md p-2">
+      <div className="header bg-sky-200 w-full shadow-md p-2 flex">
         <img src={logo} alt="logo" className="h-12" />
         <Search />
-
-        <div className="subheader-left">
-          <div>The Small Business Plan </div>
-          <div>Live Sessions </div>
-          <div>Help </div>
-        </div>
-        <div className="subheader-right">
-          <div>Icon </div>
-          <div>Icon </div>
-          <div>Icon </div>
-        </div>
       </div>
+      <div className="subheader-left">
+        <div>The Small Business Plan </div>
+        <div>Live Sessions </div>
+        <div>Help </div>
+      </div>
+      <div className="subheader-right">
+        <div>Icon </div>
+        <div>Icon </div>
+        <div>Icon </div>
+      </div>
+      <div>Icon Rohit Kumar</div>
     </>
   );
 };
